@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+</head>
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Personal Details </legend>
+            <div>
+                <label for="Fir_name">Firstname</label>
+                <input type="text" style="width: 135px">
+            </div><br>
+            <div>
+                <label for="mid_name">Middlename:</label>
+                <input type="text" id="mid_name" style="width: 135px">
+            </div><br>
+            <div>
+                <label for="last_name">Lastname:</label>
+                <input type="text" id="last_name" style="width: 135px">
+            </div><br>
+            <div>
+                <label>Course:&nbsp;</Course:nbsp></label>
+                <select name="Course">
+                    <option value="BCA">Course</option>
+                    <option value="BCA">BCA </option>
+                    <option value="BBA">BBA</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="MBA">MBA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="M.Tech">M.Tech</option>
+                </select>
+            </div><br>
+            <div>
+            <label for="gen">Gender:</label><br>
+            <input type="radio" id="gen" value="" name="gen" required>&nbsp;Male<br>
+            <input type="radio" id="gen" value="" name="gen" required>&nbsp;Female<br>
+            <input type="radio" id="gen" value="" name="gen" required>&nbsp;Chapri<br>
+            </div><br>
+            <div>
+            <label for="dob">DOB:</label>
+            <input type="datetime-local"  style="width: 135px">
+            </div>
+            <div>
+            <label for="">Phone:</label>
+            <input value="+91 " disabled style="width:50px">;
+            <input type="number"  style="width: 135px">
+            </div><br>
+            <div>
+                <label>Address</label><br>
+                <textarea cols="80" rows="8"></textarea><br>
+            </div><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+            </div><br>
+            <div>
+                <label for="">Password:</label>
+                <input type="text" id="" value="" name="">
+            </div><br>
+            <div>
+                <label for="">Re-type password:</label>
+                <input type="text" id="" value="" name="">
+            </div><br>
+            <div>
+                <label></label>
+                <input type="checkbox" id="" value="" name="">&nbsp;Agree to terms and conditions
+            </div><br>
+            <div>
+                <label for="">Choose File</label>
+                <input type="file" >
+            </div><br>
+            <div>
+                <label for="col">Choose color</label>
+                <input type="color" id="col" >
+            </div><br>
+            <div>
+                
+                <button type="reset">Reset</button>&nbsp;
+                <button type="button">Submit</button>
+            </div>
+
+      <!-- WE NEVER USE BUTTON TYPE BUTTON INSIDE FORMS -->
+
+     
+      
+
+    </fieldset>     
+     </form>
+</body>
+</html>
